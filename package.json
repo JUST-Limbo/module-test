@@ -4,7 +4,8 @@
   "description": "My webpack project",
   "main": "index.js",
   "scripts": {
-    "testmodule":"cross-env NODE_ENV=development node server"
+    "testmodule":"cross-env NODE_ENV=development node server",
+    "nocross":"node server"
   },
   "keywords": [],
   "author": "",
